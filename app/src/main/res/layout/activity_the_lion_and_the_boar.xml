@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheLionAndTheBoar">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="The Lion And The Boar" />
+
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="22dp"
+            android:text="On a summer day, when the great heat induced a general thirst, a Lion and a Boar came at the same moment to a small well to drink.
+
+\n They fiercely disputed which of them should drink first, and were soon engaged in the agonies of a mortal combat.
+
+On their stopping on a sudden to take breath for the fiercer renewal of the strife, they saw some Vultures waiting in the distance to feast on the one which should fall first.
+
+They at once made up their quarrel, saying:
+
+It is better for us to make friends, than to become the food of Crows or Vultures, as will certainly happen if we are disabled."/>
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

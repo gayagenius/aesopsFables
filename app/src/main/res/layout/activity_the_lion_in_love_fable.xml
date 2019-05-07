@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheLionInLoveFable">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="The Lion In Love"/>
+
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="22dp"
+            android:text="A Lion once fell in love with a beautiful maiden and proposed marriage to her parents.
+
+The old people did not know what to say.
+
+\n They did not like to give their daughter to the Lion, yet they did not wish to enrage the King of Beasts.
+
+At last the father said:
+
+\n We feel highly honoured by your Majestys proposal, but you see our daughter is a tender young thing, and we fear that in the vehemence of your affection you might possibly do her some injury. Might I venture to suggest that your Majesty should have your claws removed, and your teeth extracted, then we would gladly consider your proposal again.
+
+\n The Lion was so much in love that he had his claws trimmed and his big teeth taken out.
+
+\n But when he came again to the parents of the young girl they simply laughed in his face, and bade him do his worst."/>
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

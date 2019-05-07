@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheOldHound">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="The Old Hound"/>
+
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="22dp"
+            android:text="A Hound, who in the days of his youth and strength had never yielded to any beast of the forest, encountered in his old age a boar in the chase.
+
+\n He seized him boldly by the ear, but could not retain his hold because of the decay of his teeth, so that the boar escaped.
+
+\n His master, quickly coming up, was very much disappointed, and fiercely abused the dog.
+
+The Hound looked up and said: It was not my fault, master; my spirit was as good as ever, but I could not help mine infirmities. \n I rather deserve to be praised for what I have been, than to be blamed for what I am."/>
+
+
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
